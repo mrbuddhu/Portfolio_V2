@@ -136,10 +136,6 @@ h2 {
 }
 
 .first-text {
-  font-size: 4.4rem;
-  position: absolute;
-  left: 2.5rem;
-  top: 5rem;
   opacity: 0;
   animation-name: topFadeOut;
   animation-duration: 5s;
@@ -147,50 +143,10 @@ h2 {
 }
 
 .second-text {
-  font-size: 3.4rem;
-  position: absolute;
-  top: 8.5rem;
   opacity: 0;
   animation-name: rightFadeInOut;
   animation-delay: 3s;
   animation-duration: 6s;
-  color: #ccc;
+  color: white;
 }
 
-.third-text {
-  transform: rotate(-90deg);
-  font-size: 2rem;
-  position: absolute;
-  left: 45%;
-  top: 45%;
-  opacity: 0;
-  animation-name: topFadeOutVertical;
-  animation-delay: 7.5s;
-  animation-duration: 6s;
-  color: #A3DDF0;
-  white-space: nowrap;
-}
-
-.fourth-text {
-  font-size: 3.4rem;
-  position: absolute;
-  top: 10.5rem;
-  left: 10%;
-  opacity: 0;
-  color: #F0A3BE;
-  animation-name: fadeInOut;
-  animation-delay: 8.5s;
-  animation-duration: 9s;
-}
-
-.fifth-text {
-  font-size: 5rem;
-  position: absolute;
-  left: 5%;
-  bottom: 25%;
-  opacity: 0;
-  color: #F0EBA3;
-  animation-name: bottomFadeOut;
-  animation-delay: 10s;
-  animation-duration: 9s;
-}
