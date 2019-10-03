@@ -146,21 +146,7 @@ function init() {
               element.textContent = word[wordIndex];
               wordIndex = 2;
               setTimeout(resetAnimation, 1000);
-            break;
-
-            case 2:
-              element.classList.add('flip');
-              element.textContent = word[wordIndex];
-              wordIndex = 3;
-              setTimeout(resetAnimation, 1000);
-            break;
-
-            case 3:
-              element.classList.add('flip');
-              element.textContent = word[wordIndex];
-              wordIndex = 0;
-              setTimeout(resetAnimation, 1000);
-            break;
+            break; 
           }
       },2000)
 }());
