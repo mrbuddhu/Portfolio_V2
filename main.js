@@ -124,7 +124,7 @@ function init() {
 //Flipping texts
 (function() {
 
-      var word = ['Aryabhatta', 'mrbuddhu'];
+      var word = ['Mathematics', 'Computer Science', 'Artificial Intelligence', 'Robotics', 'Fine Art', 'Education'];
       var element = document.getElementsByTagName('p')[0];
       var wordIndex = 1;
 
@@ -141,12 +141,40 @@ function init() {
               setTimeout(resetAnimation, 1000);
             break;
 
-     //       case 1:
-     //         element.classList.add('flip');
-     //         element.textContent = word[wordIndex];
-      //        wordIndex = 2;
-      //        setTimeout(resetAnimation, 1000);
-      //      break; 
+            case 1:
+              element.classList.add('flip');
+              element.textContent = word[wordIndex];
+              wordIndex = 2;
+              setTimeout(resetAnimation, 1000);
+            break;
+
+            case 2:
+              element.classList.add('flip');
+              element.textContent = word[wordIndex];
+              wordIndex = 3;
+              setTimeout(resetAnimation, 1000);
+            break;
+
+            case 3:
+              element.classList.add('flip');
+              element.textContent = word[wordIndex];
+              wordIndex = 4;
+              setTimeout(resetAnimation, 1000);
+            break;
+                
+                case 4:
+              element.classList.add('flip');
+              element.textContent = word[wordIndex];
+              wordIndex = 5;
+              setTimeout(resetAnimation, 1000);
+            break;
+                
+                case 5:
+              element.classList.add('flip');
+              element.textContent = word[wordIndex];
+              wordIndex = 6;
+              setTimeout(resetAnimation, 1000);
+            break;
           }
-      },500)
+      },2000)
 }());
