@@ -5,6 +5,14 @@ main {
 	color: #FAFAFA;
 }
 
+.wrapper{
+  color:#f1c40f;
+  font-family: sans-serif;
+  font-size: 75px;
+
+  text-align: center;
+}
+
 .flip{
   transform: rotateX(360deg);
   transition: transform .6s;
