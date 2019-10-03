@@ -141,12 +141,12 @@ function init() {
               setTimeout(resetAnimation, 1000);
             break;
 
-            case 1:
-              element.classList.add('flip');
-              element.textContent = word[wordIndex];
-              wordIndex = 2;
-              setTimeout(resetAnimation, 1000);
-            break; 
+     //       case 1:
+     //         element.classList.add('flip');
+     //         element.textContent = word[wordIndex];
+      //        wordIndex = 2;
+      //        setTimeout(resetAnimation, 1000);
+      //      break; 
           }
       },2000)
 }());
