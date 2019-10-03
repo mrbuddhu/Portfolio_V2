@@ -3,6 +3,10 @@ main {
 	color: #FAFAFA;
 }
 
+p {
+  font-size: 14px;
+}
+
 .icons-social a {
 	color: #FAFAFA;
 }
