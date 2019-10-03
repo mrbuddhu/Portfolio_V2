@@ -4,6 +4,14 @@ main {
 	color: #FAFAFA;
 }
 
+h2 {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 5px 0;
+  text-shadow: rgba(0, 0, 0, .2) 0 2px 3px;
+}
+
+
 .icons-social a {
 	color: #FAFAFA;
 }
