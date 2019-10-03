@@ -16,7 +16,7 @@ main {
 
 .flip{
   transform: rotateX(360deg);
-  transition: transform .6s;
+  transition: transform .3s;
 }
 
 
