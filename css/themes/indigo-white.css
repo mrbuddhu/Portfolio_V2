@@ -1,9 +1,9 @@
 
 .footer{
   color:#FAFAFA;
-/*  font-family: sans-serif; */
-  font-size: 75px;
-
+  position: fixed;
+  bottom: 0px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
