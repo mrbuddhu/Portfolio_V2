@@ -138,7 +138,7 @@ function init() {
               element.classList.add('flip');
               element.textContent = word[wordIndex];
               wordIndex = 1;
-              setTimeout(resetAnimation, 1000);
+              setTimeout(resetAnimation, 500);
             break;
 
      //       case 1:
