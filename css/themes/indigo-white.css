@@ -1,16 +1,15 @@
 
-.footer{
-  color:#FAFAFA;
-  position: fixed;
-  bottom: 0px;
-  margin-bottom: 0px;
-  text-align: center;
-}
-
-
 main {
 	background: #303F9F;
 	color: #FAFAFA;
+}
+
+.wrapper{
+  color:#fafafa;
+  font-family: robota;
+  font-size: 75px;
+
+  text-align: center;
 }
 
 
