@@ -148,5 +148,5 @@ function init() {
       //        setTimeout(resetAnimation, 1000);
       //      break; 
           }
-      },2000)
+      },500)
 }());
