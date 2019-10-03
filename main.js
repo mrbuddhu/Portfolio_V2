@@ -124,7 +124,7 @@ function init() {
 //Flipping texts
 (function() {
 
-      var word = ['hello world', 'codepen', 'developer', 'thank you'];
+      var word = ['Aryabhatta', 'mrbuddhu'];
       var element = document.getElementsByTagName('p')[0];
       var wordIndex = 1;
 
