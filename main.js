@@ -124,7 +124,7 @@ function init() {
 //Flipping texts
 (function() {
 
-      var word = ['Mathematics', 'Computer Sc.', 'AI', 'Robotics', 'Art', 'Education'];
+      var word = ['Mathematics', 'Computer Sc.', 'AI (NN, ML, DL, NLP)', 'Robotics', 'Cybersecurity', 'Art', 'Education'];
       var element = document.getElementsByTagName('p')[0];
       var wordIndex = 1;
 
@@ -168,8 +168,15 @@ function init() {
               wordIndex = 5;
               setTimeout(resetAnimation, 1000);
             break;
-                
+              
                 case 5:
+              element.classList.add('flip');
+              element.textContent = word[wordIndex];
+              wordIndex = 6;
+              setTimeout(resetAnimation, 1000);
+            break;
+                
+                case 6:
               element.classList.add('flip');
               element.textContent = word[wordIndex];
               wordIndex = 0;
