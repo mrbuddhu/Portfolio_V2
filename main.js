@@ -124,7 +124,7 @@ function init() {
 //Flipping texts
 (function() {
 
-      var word = ['Mathematics', 'Computer Sc.', 'AI (NN, ML, DL, NLP)', 'Robotics', 'Cybersecurity', 'Art', 'Education'];
+      var word = ['Mathematics', 'Computer Sc.', 'AI (ML, DL, NLP)', 'Robotics', 'Cybersecurity', 'Art', 'Education'];
       var element = document.getElementsByTagName('p')[0];
       var wordIndex = 1;
 
