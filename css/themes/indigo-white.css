@@ -52,6 +52,11 @@ nav {
   padding-right: 10px;
 }
 
+#welcome-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
 
 main {
 	background: #000000;
