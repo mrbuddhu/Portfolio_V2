@@ -11,8 +11,68 @@ body {
   scroll-behavior: smooth;
 }
 
+/* NAVIGATION */
+	.navbar-toggle .icon-bar {
+		background: #f8f8f8;
+	}
 
-/* Navbar Styling */
+	.nav-bg .navbar-toggle .icon-bar {
+		background: #303030;
+	}
+
+	.navbar-toggle {
+		margin-right: 0px;
+		margin-top: -30px;
+	}
+
+	.navbar {
+		min-height: 0px;
+	}
+
+	.navigation-menu .navbar-nav li a {
+		padding: 11px 15px;
+		color: #303030;
+	}
+
+	.navigation-menu .navbar-nav .active {
+		color: #48b14d;
+	}
+
+	.navigation-menu .navbar-nav li a:hover {
+		color: #737373;
+	}
+
+	.nav-bg .navigation-menu .navbar-nav li a:hover {
+		color: #737373;
+	}
+
+	.nav-bg .navigation-menu .navbar-nav li a {
+		padding: 11px 15px;
+	}
+
+	.navbar-fixed-bottom .navbar-collapse,
+	.navbar-fixed-top .navbar-collapse {
+		max-height: 420px;
+	}
+
+	.navbar-toggle {
+		margin-top: -30px;
+	}
+
+	.navbar-collapse {
+		background: #fff;
+	}
+
+	.nav-bg .navbar-collapse {
+		background: #fff;
+	}
+
+	.custom-navbar .nav li.active>a {
+		border-bottom: 2px solid transparent !important;
+		color: #636363;
+	}
+
+/* Navbar Styling 
 nav {
   position: absolute;
   display: flex;
@@ -51,7 +111,7 @@ nav {
 .nav-link {
   padding-right: 10px;
 }
-
+*/
 #welcome-arrow {
   position: absolute;
   bottom: 0;
