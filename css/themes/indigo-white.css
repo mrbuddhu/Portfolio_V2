@@ -19,7 +19,7 @@ nav {
   align-items: center;
   width: 100%;
   font-size: 1.8rem;
-  
+  font-family: sans-serif;
 }
 
 #navbar a {
@@ -28,7 +28,7 @@ nav {
 }
 
 #nav-links {
-  font-family: "Lobster", cursive;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
