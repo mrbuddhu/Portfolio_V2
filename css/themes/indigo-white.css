@@ -2,23 +2,20 @@ html,
 body {
   padding: 0;
   margin: 0;
-  
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #202020, #111119);
   height: 100%;
   width: 100%;
-  
-  background: #000000;
-	color: #FAFAFA;
+  color: #FAFAFA;
   scroll-behavior: smooth;
-}
-
-#welcome-arrow {
-  position: absolute;
-  bottom: 0;
-  text-align: center
+  /*background: #000000;*/
+  
 }
 
 main {
-	background: #000000;
+	/*background: #000000;*/
 	color: #FAFAFA;
 }
 
@@ -40,18 +37,6 @@ main {
 .flip{
   transform: rotateX(360deg);
   transition: transform .6s;
-}
-
-
-html {
-  height: 100%;
-}
-
-body {
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-  background: linear-gradient(to bottom, #202020, #111119);
 }
 
 .rain {
