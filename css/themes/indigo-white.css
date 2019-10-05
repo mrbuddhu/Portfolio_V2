@@ -1,23 +1,23 @@
-html,
+html {
+  height: 100%;
+}
+
 body {
   padding: 0;
-  margin: 0;
+  width: 100%;
   height: 100%;
   margin: 0;
+  scroll-behavior: smooth;
   overflow: hidden;
   background: linear-gradient(to bottom, #202020, #111119);
-  height: 100%;
-  width: 100%;
-  color: #FAFAFA;
-  scroll-behavior: smooth;
-  /*background: #000000;*/
-  
 }
 
 main {
-	/*background: #000000;*/
+	text-align: center;
+  /*background: #000000;*/
 	color: #FAFAFA;
 }
+
 
 .icons-social a {
 	color: #FAFAFA;
@@ -38,7 +38,6 @@ main {
   transform: rotateX(360deg);
   transition: transform .6s;
 }
-
 .rain {
   position: absolute;
   left: 0;
