@@ -44,8 +44,6 @@ $('.single-toggle.toggle').on('click', function() {
 makeItRain();
 
 
-
-
 //Flipping texts
 (function() {
 
