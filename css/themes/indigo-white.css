@@ -245,14 +245,14 @@ main > .tag-line {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
-	white-space: nowrap;
+/*	white-space: nowrap;
 	overflow: hidden;
 	-webkit-animation: typing 7s steps(21, end),
-	           blink-caret .5s step-end infinite alternate;
+	           blink-caret .5s step-end infinite alternate;  */
 }
 
-@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+/*@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }*/
 
 .icons-social i {
 	padding: 10px;
