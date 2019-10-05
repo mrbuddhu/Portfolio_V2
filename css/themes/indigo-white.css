@@ -14,7 +14,7 @@ body {
 #welcome-arrow {
   position: absolute;
   bottom: 0;
-  left: 50%;
+  text-align: center
 }
 
 main {
