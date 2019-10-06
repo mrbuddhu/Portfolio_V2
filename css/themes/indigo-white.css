@@ -42,26 +42,24 @@ main > .tag-line {
 	text-align: center;
 	white-space: nowrap;
 	overflow: hidden;
-	transform: translateY(-50%);   
-	/*-webkit-animation: typing 7s steps(21, end),
-	           blink-caret .5s step-end infinite alternate;  */
+	animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
-/*@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }*/
-
-/* Typewriter effect */
+/* Typewriter effect 
 .anim-typewriter{
   animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
+             blinkTextCursor 500ms steps(44) infinite normal;*/
+
 @keyframes typewriter{
   from{width:0;}
-  to{width:24em ;}
+  to{width:100% ;}
 }
+
 @keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+  from, to { border-color: transparent }
+  50% { border-color: white; }
 }
 
 
