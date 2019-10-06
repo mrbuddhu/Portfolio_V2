@@ -34,6 +34,20 @@ main {
   transform: rotateX(360deg);
   transition: transform .6s;
 }
+main > .tag-line {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	transform: translateY(-50%);   
+	/*-webkit-animation: typing 7s steps(21, end),
+	           blink-caret .5s step-end infinite alternate;  */
+}
+
+/*@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }*/
 
 /* Typewriter effect */
 .anim-typewriter{
@@ -41,7 +55,7 @@ main {
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
-  from{width: ;}
+  from{width:0;}
   to{width: ;}
 }
 @keyframes blinkTextCursor{
@@ -258,19 +272,7 @@ main > .intro {
 	font-weight: 600;
 }
 
-main > .tag-line {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
-	white-space: nowrap;
-	overflow: hidden;
-	transform: translateY(-50%);   
-	/*-webkit-animation: typing 7s steps(21, end),
-	           blink-caret .5s step-end infinite alternate;  */
-}
 
-/*@-webkit-keyframes typing { from { width: 0; } }
-@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }*/
 
 .icons-social i {
 	padding: 10px;
