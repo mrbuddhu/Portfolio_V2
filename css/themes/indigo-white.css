@@ -35,6 +35,7 @@ main {
   transition: transform .6s;
 }
 main > .tag-line {
+	position: absolute;
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
