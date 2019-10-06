@@ -42,15 +42,15 @@ main > .tag-line {
 	text-align: center;
 	white-space: nowrap;
 	overflow: hidden;
-	animation: 
+	/*	animation: 
     typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    blink-caret .75s step-end infinite;*/
 }
 
-/* Typewriter effect 
+/* Typewriter effect */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;*/
+  animation: typewriter 3.5s steps(40, end),
+             blinkTextCursor .75s step-end infinite;  /*500ms steps(44) infinite normal;*/
 
 @keyframes typewriter{
   from{width:0;}
