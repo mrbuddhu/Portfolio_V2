@@ -262,9 +262,10 @@ main > .tag-line {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
-/*	white-space: nowrap;
+	white-space: nowrap;
 	overflow: hidden;
-	-webkit-animation: typing 7s steps(21, end),
+	transform: translateY(-50%);   
+	/*-webkit-animation: typing 7s steps(21, end),
 	           blink-caret .5s step-end infinite alternate;  */
 }
 
