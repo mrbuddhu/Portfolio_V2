@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Raining effect
 var makeItRain = function() {
   //clear out everything
@@ -228,6 +229,8 @@ $(".single-toggle.toggle").on("click", function() {
 
 makeItRain();
 
+=======
+>>>>>>> 95082a41c7e8c2f94c549e56256462f2e1b70bdc
 //Flipping texts
 (function() {
   var word = [
