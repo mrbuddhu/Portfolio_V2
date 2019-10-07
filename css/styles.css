@@ -32,6 +32,26 @@ html {
 	font-size: 3em;
 }
 
+/* Header styles */
+
+.header {
+  padding: 0 40px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__logo {
+  font-family: 'Reem Kufi', sans-serif;
+	font-size: 1.75em;
+  font-weight: 600;
+}
+
+.header__spacer {
+  flex: 1;
+}
+
 /* Custom Styles */
 
 main {
