@@ -2,7 +2,7 @@
 Minimalist portfolio.
 
 # How to contribute to this project or Open Source ?
-Happy Hacktoberfest 2019! If you are a beginner, and looking for your first contribution, please follow the steps listed below.
+If you are a beginner, and looking for your first contribution, please follow the steps listed below.
 
 **Note : Before contributing to this project plese read the ISSUE and then start to contribute for that issue.**
 
