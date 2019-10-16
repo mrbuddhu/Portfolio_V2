@@ -36,7 +36,7 @@ main {
 
 main>.tag-line {
 	position: relative;
-	font-size: 1.5rem;
+	/*font-size: 1.5rem; */
 	margin: 1.5rem 0;
 	font-weight: 100;
 	text-align: center;
