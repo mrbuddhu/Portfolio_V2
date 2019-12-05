@@ -1,7 +1,7 @@
 //Flipping texts
 (function() {
 
-      var word = ['Mathematics', 'Computer Science', 'Development', 'AI', 'Cybersecurity', 'Robotics', 'Cosmology', 'Fine Art', 'Education'];
+      var word = ['Computer Science', 'Cybersecurity', 'Development', 'AI', 'Robotics', 'Cosmology', 'Mathematics', 'Fine Art', 'Education'];
       var element = document.getElementsByTagName('p')[0];
       var wordIndex = 1;
 
