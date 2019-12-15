@@ -56,16 +56,16 @@
                 case 6:
               element.classList.add('flip');
               element.textContent = word[wordIndex];
-              wordIndex = 7;
+              wordIndex = 0;
               setTimeout(resetAnimation, 1000);
             break;
                       
-                case 7:
+         /*       case 7:
               element.classList.add('flip');
               element.textContent = word[wordIndex];
               wordIndex = 0;
               setTimeout(resetAnimation, 1000);
-            break;  
+            break;  */
           }
       },2000)
 }());
