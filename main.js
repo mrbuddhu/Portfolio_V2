@@ -69,3 +69,44 @@
           }
       },2000)
 }());
+
+
+
+// dark mode toggle 
+
+let toggle = document.body.querySelector('.fas');
+let icons = document.body.querySelectorAll('.icons-social a');
+let main = document.body.querySelector('main');
+let wrapper = document.body.querySelector('.wrapper');
+let whiteColor = '#FAFAFA';
+let blackColor = '#000';
+
+toggle.addEventListener('click', () => {
+  if(toggle.classList.contains('fa-sun')) {
+    toggle.classList.remove('fa-sun');
+    toggle.classList.add('fa-moon');
+
+    toggle.style.color = blackColor;
+    document.body.style.backgroundColor = whiteColor;
+    main.style.color = blackColor;
+    wrapper.style.color = blackColor;
+
+    icons.forEach(icon => {
+      icon.style.color = blackColor;
+    })
+
+  } else if (toggle.classList.contains('fa-moon')) {
+    toggle.classList.remove('fa-moon');
+    toggle.classList.add('fa-sun');
+
+    toggle.style.color = whiteColor;
+    document.body.style.backgroundColor = blackColor;
+    main.style.color = whiteColor;
+    wrapper.style.color = whiteColor;
+
+    icons.forEach(icon => {
+      icon.style.color = whiteColor;
+    })
+  }
+  else return;
+})
